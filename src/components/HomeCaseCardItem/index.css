@@ -1,0 +1,90 @@
+.diff-type-cards {
+  display: flex;
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .diff-type-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.home-country-wide {
+  list-style-type: none;
+  margin: 10px;
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .home-country-wide {
+    list-style-type: none;
+    margin: 10px;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.case-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.confirmed {
+  color: #ff073a;
+  text-align: center;
+}
+
+.confirmed:hover {
+  background-color: #331427;
+}
+.active {
+  color: #007bff;
+  text-align: center;
+}
+.active:hover {
+  background-color: #132240;
+}
+
+.recovered {
+  color: #28a745;
+  text-align: center;
+}
+.recovered:hover {
+  background-color: #182829;
+}
+.deceased {
+  color: #6c757d;
+  text-align: center;
+}
+.deceased:hover {
+  background-color: #212230;
+}
+
+.confirmed-active-class {
+  background-color: #331427;
+}
+
+.active-active-class {
+  background-color: #132240;
+}
+
+.recovered-active-class {
+  background-color: #182829;
+}
+
+.deceased-active-class {
+  background-color: #212230;
+}
+
+.case-card-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}

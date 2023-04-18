@@ -1,0 +1,56 @@
+.state-total-record-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  /* .state-total-record-card {
+    justify-content: space-around;
+  } */
+}
+
+.state-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f1f5f9;
+  width: 110px;
+  text-align: left;
+}
+
+.case-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100px;
+}
+
+.confirmed1 {
+  color: #ff073a;
+  text-align: right;
+}
+
+.active1 {
+  color: #007bff;
+  text-align: right;
+}
+.deceased1 {
+  color: #6c757d;
+  text-align: right;
+}
+
+.recovered1 {
+  color: #28a745;
+  text-align: right;
+}
+
+.population {
+  color: #94a3b8;
+  text-align: right;
+}

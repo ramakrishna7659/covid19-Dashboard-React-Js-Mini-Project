@@ -1,0 +1,139 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.bar {
+  font-size: 10px;
+  font-weight: 300;
+  /* background-color: rgb(53, 61, 68); */
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.heading-container {
+  text-align: start;
+}
+@media screen and (max-width: 768px) {
+  .heading-container {
+    text-align: center;
+  }
+}
+
+.bar-container {
+  margin: 10px;
+  width: 95%;
+  height: 400px;
+}
+.line-chart-wrapper {
+  max-width: 95%;
+  overflow-x: auto;
+}
+.bar-chart-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.bar-graph-heading {
+  color: #94a3b8;
+  font-size: 24px;
+}
+
+.trends-heading {
+  color: #94a3b8;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .trends-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.bar-confirmed-chart {
+  /* background-color: #331427; */
+  margin-bottom: 20px;
+  width: 55%;
+}
+
+.bar-active-chart {
+  /* background-color: #132240; */
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.bar-recovered-chart {
+  /* background-color: #182829; */
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.bar-deceased-chart {
+  /* background-color: #212230; */
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.cummulative-confirmed-chart {
+  background-color: #331427;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.cummulative-active-chart {
+  background-color: #132240;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.cummulative-recovered-chart {
+  background-color: #182829;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.cummulative-deceased-chart {
+  background-color: #212230;
+  margin-bottom: 20px;
+  width: 95%;
+}
+
+.cummulative-tested-chart {
+  width: 95%;
+  /* background-color: #230f41; */
+}
+.cummulative-vaccinated-chart {
+  /* background-color: #2e1e30; */
+  width: 95%;
+}
+
+.action-button {
+  background-color: #1e1e30;
+  color: #64748b;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 2;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.active-class {
+  color: #e2e8f0;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

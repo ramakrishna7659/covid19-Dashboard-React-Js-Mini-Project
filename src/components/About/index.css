@@ -1,0 +1,43 @@
+.about-route-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #161625;
+  padding-left: 60px;
+  padding-top: 90px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-route-container {
+    padding: 20px;
+    padding-top: 60px;
+  }
+}
+.about-description {
+  font-weight: 500;
+  font-size: 18px;
+  color: #e2e8f0;
+}
+@media screen and (max-width: 768px) {
+  .about-description {
+    font-size: 14px;
+  }
+}
+.last-update {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.about-heading {
+  font-weight: 500;
+  font-size: 30px;
+  color: #f8fafc;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}

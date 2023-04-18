@@ -1,0 +1,103 @@
+.header-container {
+  height: 60px;
+  background-color: #1e1e30;
+  width: 100%;
+  position: fixed;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.nav-bar-sm-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 760px) {
+  .nav-bar-sm-container {
+    display: none;
+  }
+}
+
+.navigation-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.nav-bar-icon {
+  height: 24px;
+  width: 24px;
+}
+.close-nav-btn {
+  color: #ffffff;
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  border: none;
+  margin-right: 15px;
+}
+.nav-sm-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sm-controls {
+  display: flex;
+  padding-left: 0px;
+}
+
+.nav-item-link {
+  text-decoration: none;
+}
+.nav-bar-large-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1e30;
+}
+@media screen and (max-width: 760px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+.logo-heading {
+  width: 130px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.india {
+  color: #007bff;
+}
+.nav-controls {
+  display: flex;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin-right: 15px;
+  cursor: pointer;
+  height: 24px;
+  color: #94a3b8;
+}
+
+.nav-item-home {
+  list-style-type: none;
+  margin-right: 15px;
+  cursor: pointer;
+  height: 24px;
+  color: #94a3b8;
+}
+
+.active-tab-class {
+  list-style-type: none;
+  margin-right: 15px;
+  color: #f8fafc;
+  cursor: pointer;
+  height: 24px;
+}

@@ -1,0 +1,64 @@
+.covid-error-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  min-height: 95vh;
+  padding-top: 50px;
+}
+
+.notfound-card {
+  padding-top: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .notfound-card {
+    width: 80%;
+  }
+}
+
+.not-found-image {
+  height: 200px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-image {
+    height: 170px;
+    width: 250px;
+  }
+}
+.notfound-heading {
+  color: #cbd5e1;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.notfound-description {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+@media screen and(max-width:768px) {
+  .notfound-description {
+    font-size: 12px;
+  }
+}
+
+.go-to-home-button {
+  background: #2563eb;
+  border-radius: 5px;
+  color: #f8fafc;
+  border: none;
+  outline: none;
+  line-height: 2;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}

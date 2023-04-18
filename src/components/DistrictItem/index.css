@@ -1,0 +1,26 @@
+.district-records {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .district-records {
+    width: 150px;
+  }
+}
+
+.district-name {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+
+  color: #94a3b8;
+}
+
+.count {
+  font-size: 18px;
+  color: #94a3b8;
+  margin-right: 5px;
+}

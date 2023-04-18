@@ -1,0 +1,61 @@
+.logo-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #f8fafc;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .logo-heading {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+.india {
+  color: #007bff;
+}
+
+.footer-description {
+  color: #94a3b8;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons-container {
+  display: flex;
+}
+
+.icon {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 51px;
+  color: #cbd5e1;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    font-size: 35px;
+    line-height: 41px;
+  }
+}
